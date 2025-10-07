@@ -25,3 +25,15 @@
 4. Coordinate with finance or legal teams to vet the Stripe extension, pricing tiers, tax obligations, and contract-level commitments.
 5. Establish a collaboration playbook: branching strategy, release calendar, tooling ownership, and communication rituals between Siftia and Adaptive.
 6. Translate agreed decisions into backlog epics with acceptance criteria so the MVP hardening plan can be scheduled and tracked.
+
+## UI/UX Considerations
+- Onboarding and invitations: provide clear admin flows, invitation status visibility, and remediation for expired or duplicate invites (`DVA_Internal_Onboarding_Discussion_EN_v2.md:17`).
+- Role-specific navigation: differentiate Admin Platform versus User App experiences, highlight restricted actions, and surface RBAC-aware states (`DVA_Internal_Onboarding_Discussion_EN_v2.md:40`).
+- Tenant context and switching: keep tenant identity prominent, offer safe switching with confirmation, and warn when actions impact all tenant users (`DVA_Internal_Onboarding_Discussion_EN_v2.md:11`).
+- Data collaboration: show ownership, version history, edit locks, and conflict resolution prompts for shared surveys and documents (`DVA_Internal_Onboarding_Discussion_EN_v2.md:52`).
+- AI usage feedback: surface token meters, real-time status, friendly failure handling, and quota alerts within workflows (`DVA_Internal_Onboarding_Discussion_EN_v2.md:65`).
+- Upload and storage: communicate accepted formats, progress, error recovery, and where files live across SFTP versus web uploads (`DVA_Internal_Onboarding_Discussion_EN_v2.md:74`).
+- Plan awareness: clearly present plan-specific limits, upsell paths, and downgrade implications at the point of decision (`DVA_Internal_Onboarding_Discussion_EN_v2.md:96`).
+- Billing and payments: keep Stripe interactions consistent with the product UI, expose history, tax info, and dunning notices gracefully (`DVA_Internal_Onboarding_Discussion_EN_v2.md:119`).
+- Analytics and privacy: include consent prompts, privacy explanations, and controls for tracking preferences (`DVA_Internal_Onboarding_Discussion_EN_v2.md:124`).
+- Collaboration signals: visualize environment status, release cadence, and upcoming deployments to keep Siftia and Adaptive synchronized (`DVA_Internal_Onboarding_Discussion_EN_v2.md:131`).
