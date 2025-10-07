@@ -80,6 +80,6 @@
 
 ---
 
-**Generated:** 2025-10-07
-**Based on:** DVA_Internal_Onboarding_Discussion_EN_v2.md
+**Generated:** 2025-10-07  
+**Based on:** DVA_Internal_Onboarding_Discussion_EN_v2.md  
 **Purpose:** Analysis and next steps for DVA multi-tenant MVP implementation
